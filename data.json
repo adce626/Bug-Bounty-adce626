@@ -1,0 +1,1047 @@
+{
+  "tools": [
+    {
+      "name": "LOXS",
+      "description": "أداة فعالة لاكتشاف الثغرات الحرجة في تطبيقات الويب مثل SQLi و XSS و LFI و CRLF injection و Open Redirects",
+      "link": "https://github.com/coffinxp/loxs",
+      "category": "فحص الثغرات",
+      "icon": "fa-bug"
+    },
+    {
+      "name": "OTY",
+      "description": "أداة مرنة لأتمتة سير عمل Bug Bounty الخاص بك - One Tool and YAML",
+      "link": "https://github.com/1hehaq/oty",
+      "category": "أتمتة",
+      "icon": "fa-robot"
+    },
+    {
+      "name": "SQLmap",
+      "description": "أداة تلقائية لحقن SQL والاستيلاء على قواعد البيانات",
+      "link": "https://github.com/sqlmapproject/sqlmap",
+      "category": "حقن SQL",
+      "icon": "fa-database"
+    },
+    {
+      "name": "WPscan",
+      "description": "فحص مواقع WordPress والحصول على تقرير فوري عن الثغرات",
+      "link": "https://github.com/wpscanteam/wpscan/",
+      "category": "WordPress",
+      "icon": "fa-wordpress"
+    },
+    {
+      "name": "FFuF",
+      "description": "أداة Fuzzing سريعة وفعالة مكتوبة بلغة Go",
+      "link": "https://github.com/ffuf/ffuf",
+      "category": "Fuzzing",
+      "icon": "fa-random"
+    },
+    {
+      "name": "Gxss",
+      "description": "أداة خفيفة للتحقق من URLs التي تحتوي على معاملات منعكسة",
+      "link": "https://github.com/KathanP19/Gxss",
+      "category": "XSS",
+      "icon": "fa-shield-alt"
+    },
+    {
+      "name": "Recx",
+      "description": "زاحف للعثور على المعاملات المنعكسة والأحرف الخاصة المنعكسة",
+      "link": "https://github.com/1hehaq/recx",
+      "category": "Reconnaissance",
+      "icon": "fa-search"
+    },
+    {
+      "name": "CustomBsqli",
+      "description": "اختبار Blind SQL Injection على URLs متعددة مع أوضاع verbose/non-verbose",
+      "link": "https://github.com/coffinxp/customBsqli",
+      "category": "حقن SQL",
+      "icon": "fa-syringe"
+    },
+    {
+      "name": "Gau",
+      "description": "جلب URLs المعروفة من AlienVault و Wayback Machine و Common Crawl",
+      "link": "https://github.com/lc/gau",
+      "category": "جمع المعلومات",
+      "icon": "fa-link"
+    },
+    {
+      "name": "Subfinder",
+      "description": "أداة سريعة وفعالة للغاية لاكتشاف النطاقات الفرعية السلبية",
+      "link": "https://github.com/projectdiscovery/subfinder",
+      "category": "Subdomain",
+      "icon": "fa-project-diagram"
+    },
+    {
+      "name": "Httpx",
+      "description": "مجموعة أدوات HTTP سريعة ومتعددة الأغراض",
+      "link": "https://github.com/projectdiscovery/httpx",
+      "category": "HTTP",
+      "icon": "fa-globe"
+    },
+    {
+      "name": "Katana",
+      "description": "إطار عمل من الجيل التالي للزحف والتجسس",
+      "link": "https://github.com/projectdiscovery/katana",
+      "category": "Crawling",
+      "icon": "fa-spider"
+    },
+    {
+      "name": "Nuclei",
+      "description": "ماسح ضوئي سريع وقابل للتخصيص للثغرات مدعوم من مجتمع الأمان العالمي",
+      "link": "https://github.com/projectdiscovery/nuclei",
+      "category": "فحص الثغرات",
+      "icon": "fa-atom"
+    },
+    {
+      "name": "SSRFmap",
+      "description": "أداة تلقائية لـ SSRF fuzzing والاستغلال - تأخذ ملف طلب Burp كمدخل",
+      "link": "https://github.com/swisskyrepo/SSRFmap",
+      "category": "SSRF",
+      "icon": "fa-map"
+    },
+    {
+      "name": "Ghauri",
+      "description": "أداة متقدمة عبر المنصات لأتمتة اكتشاف واستغلال ثغرات حقن SQL",
+      "link": "https://github.com/r0oth3x49/ghauri",
+      "category": "حقن SQL",
+      "icon": "fa-database"
+    },
+    {
+      "name": "Amass",
+      "description": "أداة تعداد النطاقات الفرعية و OSINT باستخدام جمع المعلومات مفتوحة المصدر",
+      "link": "https://github.com/OWASP/Amass",
+      "category": "OSINT",
+      "icon": "fa-sitemap"
+    },
+    {
+      "name": "Assetfinder",
+      "description": "البحث عن النطاقات والنطاقات الفرعية المتعلقة بنطاق معين",
+      "link": "https://github.com/tomnomnom/assetfinder",
+      "category": "جمع المعلومات",
+      "icon": "fa-search-location"
+    },
+    {
+      "name": "Masscan",
+      "description": "ماسح منافذ TCP - يمكنه فحص الإنترنت بالكامل في أقل من 5 دقائق",
+      "link": "https://github.com/robertdavidgraham/masscan",
+      "category": "Port Scanning",
+      "icon": "fa-network-wired"
+    },
+    {
+      "name": "Hakrawler",
+      "description": "زاحف ويب بسيط وسريع مصمم لاكتشاف سهل وسريع للنقاط النهائية والأصول",
+      "link": "https://github.com/hakluke/hakrawler",
+      "category": "Crawling",
+      "icon": "fa-spider"
+    },
+    {
+      "name": "URLfinder",
+      "description": "أداة عالية السرعة لجمع URLs بشكل سلبي",
+      "link": "https://github.com/projectdiscovery/urlfinder",
+      "category": "جمع المعلومات",
+      "icon": "fa-link"
+    },
+    {
+      "name": "LinkFinder",
+      "description": "سكريبت Python يجد النقاط النهائية في ملفات JavaScript",
+      "link": "https://github.com/GerbenJavado/LinkFinder",
+      "category": "JavaScript",
+      "icon": "fa-file-code"
+    },
+    {
+      "name": "Recon-ng",
+      "description": "إطار عمل استطلاع كامل المواصفات",
+      "link": "https://github.com/lanmaster53/recon-ng",
+      "category": "Reconnaissance",
+      "icon": "fa-binoculars"
+    },
+    {
+      "name": "Arjun",
+      "description": "اكتشاف معاملات HTTP",
+      "link": "https://github.com/s0md3v/Arjun",
+      "category": "Parameter Discovery",
+      "icon": "fa-cogs"
+    },
+    {
+      "name": "jSQL",
+      "description": "أداة تلقائية لحقن SQL مع واجهة رسومية",
+      "link": "https://github.com/ron190/jsql-injection",
+      "category": "حقن SQL",
+      "icon": "fa-database"
+    },
+    {
+      "name": "Smuggler",
+      "description": "أداة لاكتشاف HTTP Request Smuggling",
+      "link": "https://github.com/defparam/smuggler",
+      "category": "HTTP Smuggling",
+      "icon": "fa-user-secret"
+    },
+    {
+      "name": "Sn1per",
+      "description": "إطار عمل آلي لاختبار الاختراق والاستطلاع",
+      "link": "https://github.com/1N3/Sn1per",
+      "category": "Automation",
+      "icon": "fa-crosshairs"
+    },
+    {
+      "name": "Spiderfoot",
+      "description": "أداة أتمتة استخبارات OSINT",
+      "link": "https://github.com/smicallef/spiderfoot",
+      "category": "OSINT",
+      "icon": "fa-satellite-dish"
+    },
+    {
+      "name": "Jaeles",
+      "description": "إطار عمل قوي لأتمتة الفحص الأمني",
+      "link": "https://github.com/jaeles-project/jaeles",
+      "category": "Automation",
+      "icon": "fa-tools"
+    },
+    {
+      "name": "ChopChop",
+      "description": "ماسح ضوئي للنقاط النهائية الحساسة",
+      "link": "https://github.com/michelin/ChopChop",
+      "category": "Endpoint Scanning",
+      "icon": "fa-cut"
+    },
+    {
+      "name": "Inception",
+      "description": "أداة لأتمتة Reconnaissance",
+      "link": "https://github.com/proabiral/inception",
+      "category": "Reconnaissance",
+      "icon": "fa-eye"
+    },
+    {
+      "name": "Eyewitness",
+      "description": "التقاط لقطات شاشة لمواقع الويب",
+      "link": "https://github.com/FortyNorthSecurity/EyeWitness",
+      "category": "Screenshot",
+      "icon": "fa-camera"
+    },
+    {
+      "name": "Meg",
+      "description": "جلب العديد من المسارات عبر عدة مضيفين",
+      "link": "https://github.com/tomnomnom/meg",
+      "category": "HTTP",
+      "icon": "fa-server"
+    },
+    {
+      "name": "Snallygaster",
+      "description": "أداة لاكتشاف الملفات السرية على خوادم الويب",
+      "link": "https://github.com/hannob/snallygaster",
+      "category": "File Discovery",
+      "icon": "fa-file-alt"
+    },
+    {
+      "name": "NMAP",
+      "description": "أداة فحص المنافذ والشبكات الأكثر شهرة",
+      "link": "https://github.com/nmap/nmap",
+      "category": "Network Scanning",
+      "icon": "fa-network-wired"
+    },
+    {
+      "name": "Waybackurls",
+      "description": "جلب جميع URLs من Wayback Machine",
+      "link": "https://github.com/tomnomnom/waybackurls",
+      "category": "Archive",
+      "icon": "fa-archive"
+    },
+    {
+      "name": "GF",
+      "description": "أداة للبحث عن أنماط محددة في الإخراج",
+      "link": "https://github.com/tomnomnom/gf",
+      "category": "Pattern Matching",
+      "icon": "fa-filter"
+    },
+    {
+      "name": "GF Patterns",
+      "description": "مجموعة من الأنماط لأداة GF",
+      "link": "https://github.com/1ndianl33t/Gf-Patterns",
+      "category": "Pattern Matching",
+      "icon": "fa-list"
+    },
+    {
+      "name": "Paramspider",
+      "description": "اكتشاف المعاملات من الأرشيفات",
+      "link": "https://github.com/devanshbatham/ParamSpider",
+      "category": "Parameter Discovery",
+      "icon": "fa-spider"
+    },
+    {
+      "name": "XSSER",
+      "description": "إطار عمل تلقائي لاكتشاف واستغلال XSS",
+      "link": "https://github.com/epsylon/xsser",
+      "category": "XSS",
+      "icon": "fa-code"
+    },
+    {
+      "name": "JSScanner",
+      "description": "ماسح ضوئي لملفات JavaScript",
+      "link": "https://github.com/dark-warlord14/JSScanner",
+      "category": "JavaScript",
+      "icon": "fa-js"
+    },
+    {
+      "name": "Takeover",
+      "description": "أداة للكشف عن Subdomain Takeover",
+      "link": "https://github.com/m4ll0k/takeover",
+      "category": "Subdomain Takeover",
+      "icon": "fa-exchange-alt"
+    },
+    {
+      "name": "Keyhacks",
+      "description": "التحقق من صحة مفاتيح API",
+      "link": "https://github.com/streaak/keyhacks",
+      "category": "API Keys",
+      "icon": "fa-key"
+    },
+    {
+      "name": "GitLeaks",
+      "description": "فحص مستودعات Git للبحث عن الأسرار",
+      "link": "https://github.com/zricethezav/gitleaks",
+      "category": "Secret Scanning",
+      "icon": "fa-user-lock"
+    },
+    {
+      "name": "Dalfox",
+      "description": "ماسح XSS قوي وسريع",
+      "link": "https://github.com/hahwul/dalfox",
+      "category": "XSS",
+      "icon": "fa-bolt"
+    },
+    {
+      "name": "Osmedeus",
+      "description": "إطار عمل Workflow للاستطلاع التلقائي",
+      "link": "https://github.com/j3ssie/osmedeus",
+      "category": "Automation",
+      "icon": "fa-layer-group"
+    },
+    {
+      "name": "getJS",
+      "description": "جلب جميع ملفات JavaScript من موقع ويب",
+      "link": "https://github.com/003random/getJS",
+      "category": "JavaScript",
+      "icon": "fa-file-code"
+    },
+    {
+      "name": "isup.sh",
+      "description": "أداة للتحقق من حالة المواقع وتوافرها",
+      "link": "https://github.com/gitnepal/isup",
+      "category": "Monitoring",
+      "icon": "fa-heartbeat"
+    },
+    {
+      "name": "Gotty",
+      "description": "مشاركة الطرفية كتطبيق ويب",
+      "link": "https://github.com/yudai/gotty",
+      "category": "Terminal",
+      "icon": "fa-terminal"
+    },
+    {
+      "name": "UPDOG",
+      "description": "خادم ويب بسيط وسريع لتبادل الملفات",
+      "link": "https://github.com/sc0tfree/updog",
+      "category": "File Sharing",
+      "icon": "fa-share-alt"
+    },
+    {
+      "name": "S3 Bucket AIO Pwn",
+      "description": "أداة شاملة لاختبار أمان S3 Buckets",
+      "link": "https://github.com/blackhatethicalhacking/s3-buckets-aio-pwn",
+      "category": "Cloud Security",
+      "icon": "fa-cloud"
+    },
+    {
+      "name": "BHEH Sub Pwner",
+      "description": "أداة استطلاع النطاقات الفرعية الشاملة",
+      "link": "https://github.com/blackhatethicalhacking/bheh-sub-pwner",
+      "category": "Subdomain",
+      "icon": "fa-network-wired"
+    },
+    {
+      "name": "Domain-2IP-Converter",
+      "description": "تحويل النطاقات إلى عناوين IP بشكل مجمع",
+      "link": "https://github.com/blackhatethicalhacking/Domain2IP-Converter",
+      "category": "DNS",
+      "icon": "fa-exchange-alt"
+    },
+    {
+      "name": "Log4j Scanner",
+      "description": "ماسح ضوئي لاكتشاف ثغرة Log4Shell",
+      "link": "https://github.com/Black-Hat-Ethical-Hacking/log4j-scan",
+      "category": "Vulnerability Scanning",
+      "icon": "fa-search"
+    }
+  ],
+  "repositories": [
+    {
+      "name": "Awesome Bug Bounty Builder",
+      "description": "مشروع رائع لبناء Bug Bounty",
+      "link": "https://github.com/0xJin/awesome-bugbounty-builder",
+      "category": "مجموعات"
+    },
+    {
+      "name": "Bug Bounty Resources",
+      "description": "Bug Bounty ~ Awesomes | Books | Cheatsheets | Checklists | Tools | Wordlists | More",
+      "link": "https://github.com/AnLoMinus/Bug-Bounty",
+      "category": "مجموعات"
+    },
+    {
+      "name": "Hacking PDF",
+      "description": "مجموعة من كتب الهاكر الشهيرة بصيغة PDF",
+      "link": "https://github.com/zapstiko/Hacking-PDF",
+      "category": "كتب"
+    },
+    {
+      "name": "Threat Hunter Playbook",
+      "description": "دليل صائد التهديدات الشامل",
+      "link": "https://github.com/OTRF/ThreatHunter-Playbook",
+      "category": "تهديدات"
+    },
+    {
+      "name": "Bugbounty Cheatsheet",
+      "description": "قائمة بالحمولات والنصائح والحيل المثيرة لصيادي الثغرات",
+      "link": "https://github.com/EdOverflow/bugbounty-cheatsheet",
+      "category": "Cheatsheets"
+    },
+    {
+      "name": "Bug Bounty Tools",
+      "description": "أدوات عشوائية لـ Bug Bounty",
+      "link": "https://github.com/daffainfo/bash-bounty",
+      "category": "أدوات"
+    },
+    {
+      "name": "BigBountyRecon",
+      "description": "أداة استطلاع شاملة",
+      "link": "https://github.com/Viralmaniar/BigBountyRecon",
+      "category": "Reconnaissance"
+    },
+    {
+      "name": "Hack Pet",
+      "description": "إدارة أوامر سريعة للهاكرز وصيادي الثغرات",
+      "link": "https://github.com/hahwul/hack-pet",
+      "category": "أدوات"
+    },
+    {
+      "name": "Web Hackers Weapons",
+      "description": "مجموعة أسلحة هاكرز الويب",
+      "link": "https://github.com/hahwul/WebHackersWeapons",
+      "category": "مجموعات"
+    },
+    {
+      "name": "Parrot Recon",
+      "description": "أتمتة Recon لـ Bug Bounties",
+      "link": "https://github.com/parrotassassin15/parrot-recon",
+      "category": "Automation"
+    },
+    {
+      "name": "OK-VPS",
+      "description": "أدوات إعداد VPS لـ Bug Bounty",
+      "link": "https://github.com/mrco24/OK-VPS",
+      "category": "VPS Setup"
+    },
+    {
+      "name": "CoffinXP Scripts",
+      "description": "مستودع يتضمن جميع قوائم الكلمات المهمة المستخدمة أثناء البحث عن الثغرات",
+      "link": "https://github.com/coffinxp/scripts",
+      "category": "Wordlists"
+    },
+    {
+      "name": "CoffinXP Payloads",
+      "description": "حمولات Bug Bounty",
+      "link": "https://github.com/coffinxp/payloads",
+      "category": "Payloads"
+    },
+    {
+      "name": "Image EXIF Data",
+      "description": "استخراج بيانات EXIF من الصور",
+      "link": "https://github.com/coffinxp/Image-EXIF-Data",
+      "category": "EXIF"
+    },
+    {
+      "name": "Nuclei Templates",
+      "description": "قوالب Nuclei المخصصة",
+      "link": "https://github.com/coffinxp/nuclei-templates",
+      "category": "Templates"
+    },
+    {
+      "name": "Burp Pack Wordlists",
+      "description": "حزمة Burp Suite الكاملة من قوائم الكلمات",
+      "link": "https://github.com/SilverPoision/a-full-list-of-wordlists/tree/master/Wordlists/burp_pack",
+      "category": "Wordlists"
+    },
+    {
+      "name": "The Bug Hunter's Methodology",
+      "description": "منهجية متعلقة بتقييمات أمان تطبيقات الويب والبحث عن الثغرات",
+      "link": "https://github.com/jhaddix/tbhm",
+      "category": "Methodology"
+    },
+    {
+      "name": "Galaxy Bugbounty Checklist",
+      "description": "نصائح ودروس لـ Bug Bounty واختبار الاختراق",
+      "link": "https://github.com/0xmaximus/Galaxy-Bugbounty-Checklist",
+      "category": "Checklists"
+    },
+    {
+      "name": "How To Hunt",
+      "description": "مجموعة من المنهجيات وحالات الاختبار لمختلف ثغرات الويب",
+      "link": "https://github.com/KathanP19/HowToHunt",
+      "category": "Methodology"
+    },
+    {
+      "name": "Awesome Bugbounty Writeups",
+      "description": "قائمة منسقة من تقارير Bug Bounty (مصنفة حسب نوع الثغرة)",
+      "link": "https://github.com/devanshbatham/Awesome-Bugbounty-Writeups",
+      "category": "Writeups"
+    },
+    {
+      "name": "All About Bug Bounty",
+      "description": "كل شيء عن Bug Bounty (الالتفافات، الحمولات، إلخ)",
+      "link": "https://github.com/daffainfo/AllAboutBugBounty",
+      "category": "مجموعات"
+    },
+    {
+      "name": "HolyTips",
+      "description": "مجموعة من الملاحظات وقوائم التحقق والتقارير حول Bug Bounty وأمان تطبيقات الويب",
+      "link": "https://github.com/HolyBugx/HolyTips",
+      "category": "Tips"
+    },
+    {
+      "name": "King Of Bug Bounty Tips",
+      "description": "نصائح ملك Bug Bounty",
+      "link": "https://github.com/KingOfBugbounty/KingOfBugBountyTips",
+      "category": "Tips"
+    }
+  ],
+  "articles": [
+    {
+      "title": "دليل WAF Bypass باستخدام SQLMap و Proxychains",
+      "description": "إتقان تقنيات SQLMap المتقدمة مع Proxychains وسكريبتات tamper ضد Cloudflare و ModSecurity",
+      "link": "https://infosecwriteups.com/waf-bypass-masterclass-using-sqlmap-with-proxychains-and-tamper-scripts-against-cloudflare-9d46b36bae94?sk=cb8226b81080fbdcbfc6d165b608176e",
+      "date": "مايو 2024",
+      "readTime": "6 دقائق",
+      "category": "SQL Injection"
+    },
+    {
+      "title": "كيفية استغلال CVE-2025-29927 في Next.js",
+      "description": "دليل خطوة بخطوة للبحث الجماعي عن Authorization Bypass بواسطة Middleware في Next.js",
+      "link": "https://infosecwriteups.com/how-hackers-exploit-cve-2025-29927-in-next-js-like-a-pro-9997f48ed7ce?sk=e868408c235845190e109823e1086c92",
+      "date": "أبريل 2024",
+      "readTime": "4 دقائق",
+      "category": "CVE"
+    },
+    {
+      "title": "كيف يستغل الهاكرز XML-RPC",
+      "description": "من Recon إلى الاستغلال الكامل: مسار هجوم XML-RPC",
+      "link": "https://infosecwriteups.com/how-hackers-abuse-xml-rpc-to-launch-bruteforce-and-ddos-attacks-40be5b310960?sk=026eb8be7e3413bbe76f676715009ee2",
+      "date": "مارس 2024",
+      "readTime": "6 دقائق",
+      "category": "XML-RPC"
+    },
+    {
+      "title": "توجيه حركة المرور من WSL إلى Burp Suite",
+      "description": "تعلم كيفية تكوين WSL لتوجيه جميع الحركة عبر Burp Suite",
+      "link": "https://infosecwriteups.com/how-to-route-traffic-from-wsl-to-burp-suite-on-windows-a-step-by-step-guide-38d58f65b21a?sk=81d618b2a72b0fc3f6a1bfc60ee62460",
+      "date": "أبريل 2024",
+      "readTime": "5 دقائق",
+      "category": "Tools Setup"
+    },
+    {
+      "title": "من الصفر إلى البطل: صيد ثغرات Open Redirect",
+      "description": "منهجية كاملة للعثور على واستغلال ثغرات Open Redirect في تطبيقات الويب الحديثة",
+      "link": "https://infosecwriteups.com/from-zero-to-hero-hunting-high-paying-open-redirect-bugs-in-web-apps-fdb80286236e?sk=c273c6eab07cefa6df739bfb7be3ef67",
+      "date": "مارس 2024",
+      "readTime": "7 دقائق",
+      "category": "Open Redirect"
+    },
+    {
+      "title": "LostFuzzer: Passive URL Fuzzing",
+      "description": "أداة متقدمة لاكتشاف النقاط النهائية المخفية والثغرات",
+      "link": "https://infosecwriteups.com/lostfuzzer-passive-url-fuzzing-nuclei-dast-for-bug-hunters-a33501b9563b?sk=aa2698f54ba6be98d9398bf0d3bfb65f",
+      "date": "فبراير 2024",
+      "readTime": "5 دقائق",
+      "category": "Fuzzing"
+    },
+    {
+      "title": "S3 Bucket Recon: العثور على AWS Buckets المكشوفة",
+      "description": "تقنيات ومنهجيات لتحديد حاويات Amazon S3 المكونة بشكل خاطئ",
+      "link": "https://infosecwriteups.com/s3-bucket-recon-finding-exposed-aws-buckets-like-a-pro-106be5ab9e1d?sk=6fd3c7ecb956a574561d8a625fed41cd",
+      "date": "فبراير 2024",
+      "readTime": "6 دقائق",
+      "category": "Cloud Security"
+    },
+    {
+      "title": "أفضل إضافات المتصفح للبحث عن الثغرات",
+      "description": "دليل شامل للإضافات الأساسية التي تعزز سير عمل البحث عن الثغرات",
+      "link": "https://infosecwriteups.com/best-browser-extensions-for-bug-hunting-and-cybersecurity-77faf6bd8188?sk=ba025ca3f8e8d37e56be90796fb5d1c6",
+      "date": "يناير 2024",
+      "readTime": "5 دقائق",
+      "category": "Tools"
+    },
+    {
+      "title": "إتقان FFUF: دليل Web Fuzzing النهائي",
+      "description": "إتقان أداة FFUF fuzzing القوية لاكتشاف النقاط النهائية المخفية",
+      "link": "https://osintteam.blog/ffuf-mastery-the-ultimate-web-fuzzing-guide-f7755c396b92?sk=4bf4d6b8f0bb8407483009f1120cf0c3",
+      "date": "مارس 2024",
+      "readTime": "8 دقائق",
+      "category": "Fuzzing"
+    },
+    {
+      "title": "مجموعة قوالب Nuclei الخاصة",
+      "description": "قوالب Nuclei مخصصة أدت إلى تقارير ثغرات ناجحة",
+      "link": "https://medium.com/meetcyber/my-private-nuclei-template-collection-for-easy-bounties-ba704073d065?sk=9bc9f77b52c5d4e95f4b8ff83b39645d",
+      "date": "أبريل 2024",
+      "readTime": "6 دقائق",
+      "category": "Nuclei"
+    },
+    {
+      "title": "استخدام Wayback Machine للبحث عن الثغرات",
+      "description": "تقنيات متقدمة للاستفادة من أرشيف Wayback Machine",
+      "link": "https://infosecwriteups.com/unlock-the-full-potential-of-the-wayback-machine-for-bug-bounty-8b6f57e2637d?sk=5a9884efd7c16dde4b08bd66d46ba7db",
+      "date": "فبراير 2024",
+      "readTime": "4 دقائق",
+      "category": "Reconnaissance"
+    },
+    {
+      "title": "SQL Injection في أكبر هيئة كهرباء في سريلانكا",
+      "description": "دراسة حالة مفصلة لاكتشاف ثغرة SQL Injection حرجة",
+      "link": "https://infosecwriteups.com/sql-injection-in-largest-electricity-board-of-sri-lanka-1a55c12104bd?sk=f3b1f369151782d6854c41ba11027e78",
+      "date": "يناير 2024",
+      "readTime": "5 دقائق",
+      "category": "Case Study"
+    },
+    {
+      "title": "PDF.js تنفيذ كود JavaScript (CVE-2024-4367)",
+      "description": "تحليل ودليل استغلال لثغرة تنفيذ الكود الحرجة في مكتبة PDF.js",
+      "link": "https://infosecwriteups.com/pdf-js-arbitrary-javascript-code-execution-cve-2024-4367-be4a64f877df?sk=19cadb705d4e9f5d738a62d4e52ba8ec",
+      "date": "أبريل 2024",
+      "readTime": "7 دقائق",
+      "category": "CVE"
+    },
+    {
+      "title": "كيفية العثور على IP الأصلي لأي موقع خلف WAF",
+      "description": "تقنيات لتحديد عنوان IP الحقيقي للخوادم المحمية بجدران حماية",
+      "link": "https://infosecwriteups.com/how-to-find-origin-ip-of-any-website-behind-a-waf-c85095156ef7?sk=9e2f38a9cf34e4422f6281f5f8436f83",
+      "date": "مارس 2024",
+      "readTime": "5 دقائق",
+      "category": "WAF Bypass"
+    },
+    {
+      "title": "ابحث عن ثغرات XSS في دقيقتين فقط",
+      "description": "منهجية سريعة لتحديد ثغرات Cross-Site Scripting",
+      "link": "https://osintteam.blog/find-xss-vulnerabilities-in-just-2-minutes-d14b63d000b1?sk=8fadb5146a6220e9e760bf9a930425c6",
+      "date": "فبراير 2024",
+      "readTime": "4 دقائق",
+      "category": "XSS"
+    },
+    {
+      "title": "كيفية تحديد البيانات الحساسة في ملفات JavaScript",
+      "description": "تقنيات لاكتشاف بيانات الاعتماد ومفاتيح API في JavaScript من جانب العميل",
+      "link": "https://infosecwriteups.com/how-to-identify-sensitive-data-in-javascript-files-jsrecon-cb9dc82d7d6f?sk=2a6b5c1f9e8d3a4b7c6f5e4d3c2b1a9f",
+      "date": "مارس 2024",
+      "readTime": "5 دقائق",
+      "category": "JavaScript"
+    },
+    {
+      "title": "Hacking Mindset - ما تحتاج لتعلمه",
+      "description": "العقلية الأساسية التي يحتاجها كل هاكر أخلاقي وصياد ثغرات لتطوير مهاراته",
+      "link": "https://medium.com/@batuhanaydinn/hacking-mindset-you-need-to-learn-these-7b3a26751abf",
+      "date": "2024",
+      "readTime": "8 دقائق",
+      "category": "Mindset"
+    },
+    {
+      "title": "كيفية العثور على ثغرات P1 باستخدام Google في هدفك",
+      "description": "استخدام Google Search بطريقة متقدمة للعثور على ثغرات عالية الخطورة",
+      "link": "https://rivudon.medium.com/e37455324dc1?sk=e4a325688ddde56268d1d85fc08c3b68",
+      "date": "2024",
+      "readTime": "6 دقائق",
+      "category": "Google Dorking"
+    }
+  ],
+  "extensions": [
+    {
+      "name": "Greb",
+      "description": "التقاط ومعالجة معاملات النموذج ومعاملات URL وبيانات النموذج بسهولة",
+      "link": "https://github.com/1hehaq/greb.git",
+      "store": "Github",
+      "icon": "fa-github"
+    },
+    {
+      "name": "TruffleHog",
+      "description": "العثور على مفاتيح API والأسرار المخفية في مواقع الويب",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/trufflehog/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "FoxyProxy",
+      "description": "إدارة Proxy أساسية لـ Burp Suite وتطبيقات MITM الأخرى",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Wappalyzer",
+      "description": "تحديد التقنيات ونظام إدارة المحتوى والأطر المستخدمة",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Temp Mail",
+      "description": "وصول سريع إلى خدمات البريد الإلكتروني المؤقت",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/temp-mail/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Hunter.io",
+      "description": "استخراج جميع عناوين البريد الإلكتروني من مواقع الويب",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/hunterio/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "HackTools",
+      "description": "مجموعة من الحمولات والأدوات المفيدة لاختبار الاختراق",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/hacktools/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Cookie Editor",
+      "description": "إدارة متقدمة لملفات تعريف الارتباط مع اكتشاف علامة الأمان",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/edit-cookie/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "WebRTC Disable",
+      "description": "حماية IP الخاص بـ VPN من تسريبات WebRTC",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Link Gopher",
+      "description": "استخراج جميع النطاقات والروابط من مواقع الويب ونتائج Google",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/link-gopher/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "FindSomething",
+      "description": "اكتشاف المعاملات المخفية والمفاتيح السرية",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/findsomething/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "DotGit",
+      "description": "العثور على مستودعات .git المكشوفة",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/dotgit/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Open Multiple URLs",
+      "description": "فتح مواقع متعددة في وقت واحد",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/open-multiple-urls/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "uBlock Origin",
+      "description": "حظر الإعلانات وأدوات التتبع لاختبار أنظف",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Dark Reader",
+      "description": "الوضع الداكن لصيد أفضل في الليل",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "User-Agent Switcher",
+      "description": "اختبار المواقع بسلاسل user-agent مختلفة",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Retire.js",
+      "description": "تحديد مكتبات JavaScript الضعيفة",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/retire-js/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Page Translator",
+      "description": "ترجمة مواقع الويب إلى لغتك المفضلة",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "WaybackURLs",
+      "description": "جلب URLs من أرشيف Wayback Machine",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/waybackurl/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Shodan",
+      "description": "عرض تفاصيل الاستضافة وملكية IP والخدمات المفتوحة",
+      "link": "https://addons.mozilla.org/es/firefox/addon/shodan-addon/",
+      "store": "Firefox",
+      "icon": "fa-firefox"
+    }
+  ],
+  "dorks": [
+    {
+      "name": "نموذج اتصل بنا",
+      "description": "العثور على نماذج الاتصال بأسماء ملفات محددة",
+      "query": "site:{domain} inurl:contact.php OR inurl:contactus.php",
+      "icon": "fa-file-alt"
+    },
+    {
+      "name": "صفحة اتصل بنا",
+      "description": "العثور على صفحات الاتصال بـ URLs محددة",
+      "query": "site:{domain} inurl:contact OR inurl:contactus",
+      "icon": "fa-file"
+    },
+    {
+      "name": "نموذج الملاحظات",
+      "description": "العثور على نماذج الملاحظات وصفحات الإرسال",
+      "query": "site:{domain} inurl:feedback OR inurl:feedbackform",
+      "icon": "fa-comment-dots"
+    },
+    {
+      "name": "صفحة إرسال طلب",
+      "description": "العثور على صفحات إرسال الطلبات",
+      "query": "site:{domain} inurl:submit OR inurl:request",
+      "icon": "fa-paper-plane"
+    },
+    {
+      "name": "اتصل بالدعم",
+      "description": "العثور على صفحات الاتصال بالدعم",
+      "query": "site:{domain} inurl:support OR inurl:help",
+      "icon": "fa-headset"
+    },
+    {
+      "name": "صفحات الإرسال",
+      "description": "العثور على صفحات لإرسال المعلومات",
+      "query": "site:{domain} intext:submit",
+      "icon": "fa-upload"
+    },
+    {
+      "name": "مركز الدعم",
+      "description": "العثور على صفحات مركز الدعم",
+      "query": "site:{domain} inurl:supportcenter OR inurl:helpcenter",
+      "icon": "fa-life-ring"
+    },
+    {
+      "name": "نماذج الإرسال",
+      "description": "العثور على نماذج الإرسال المختلفة",
+      "query": "site:{domain} inurl:submitform",
+      "icon": "fa-clipboard-list"
+    },
+    {
+      "name": "طلب إرسال",
+      "description": "العثور على صفحات لإرسال الطلبات",
+      "query": "site:{domain} inurl:requestsubmit",
+      "icon": "fa-sync-alt"
+    },
+    {
+      "name": "صفحات التقارير",
+      "description": "العثور على صفحات لإرسال التقارير",
+      "query": "site:{domain} inurl:report",
+      "icon": "fa-exclamation-triangle"
+    },
+    {
+      "name": "صفحات النماذج",
+      "description": "العثور على صفحات بنص نموذج محدد",
+      "query": "site:{domain} intext:form",
+      "icon": "fa-file-contract"
+    },
+    {
+      "name": "نماذج نوع الطلب",
+      "description": "العثور على نماذج الطلبات بـ URLs محددة",
+      "query": "site:{domain} inurl:requesttype",
+      "icon": "fa-file-signature"
+    }
+  ],
+  "checklists": [
+    {
+      "name": "Bug Bounty Check List",
+      "description": "قائمة تحقق شاملة لـ Bug Bounty",
+      "link": "https://medium.com/@cc1h2e1/bug-bounty-check-list-by-c1-2beb7ae3c116",
+      "category": "Checklists"
+    },
+    {
+      "name": "How To Hunt",
+      "description": "دليل منهجية الصيد",
+      "link": "https://github.com/KathanP19/HowToHunt",
+      "category": "Methodology"
+    },
+    {
+      "name": "Pentest Guide",
+      "description": "دليل اختبار الاختراق",
+      "link": "https://github.com/Voorivex/pentest-guide",
+      "category": "Pentesting"
+    },
+    {
+      "name": "Security Testing",
+      "description": "دليل الاختبار الأمني",
+      "link": "https://github.com/heilla/SecurityTesting",
+      "category": "Testing"
+    },
+    {
+      "name": "Bug Bounty Roadmaps",
+      "description": "خرائط طريق Bug Bounty",
+      "link": "https://github.com/1ndianl33t/Bug-Bounty-Roadmaps",
+      "category": "Roadmaps"
+    },
+    {
+      "name": "HackTricks",
+      "description": "موسوعة حيل الاختراق",
+      "link": "https://book.hacktricks.xyz/",
+      "category": "Encyclopedia"
+    },
+    {
+      "name": "Pentest Book",
+      "description": "كتاب منهجية Pentest",
+      "link": "https://six2dez.gitbook.io/pentest-book/recon/recon-methodology",
+      "category": "Methodology"
+    },
+    {
+      "name": "Cyber Bookmarks",
+      "description": "إشارات مرجعية للأمن السيبراني",
+      "link": "https://x0rb3l.github.io/Cyber-Bookmarks/bookmarks.html",
+      "category": "Resources"
+    },
+    {
+      "name": "The Hacker Recipes",
+      "description": "وصفات الهاكر",
+      "link": "https://www.thehacker.recipes/",
+      "category": "Guides"
+    },
+    {
+      "name": "All About Bug Bounty",
+      "description": "كل شيء عن Bug Bounty",
+      "link": "https://github.com/daffainfo/AllAboutBugBounty",
+      "category": "Complete Guide"
+    },
+    {
+      "name": "BugBounty CheatSheet",
+      "description": "ورقة غش Bug Bounty",
+      "link": "https://github.com/Neelakandan-A/BugBounty_CheatSheet",
+      "category": "Cheatsheet"
+    },
+    {
+      "name": "Bug Bounty Cheatsheet",
+      "description": "ورقة غش Bug Bounty من m0chan",
+      "link": "https://m0chan.github.io/2019/12/17/Bug-Bounty-Cheetsheet.html",
+      "category": "Cheatsheet"
+    },
+    {
+      "name": "Web Security CheatSheet",
+      "description": "ورقة غش أمان الويب",
+      "link": "https://github.com/imran-parray/Web-Sec-CheatSheet",
+      "category": "Web Security"
+    },
+    {
+      "name": "Recon Methodology",
+      "description": "منهجية وملاحظات الاستطلاع",
+      "link": "https://www.scribd.com/document/752234501/Recon-Methdology-and-notes",
+      "category": "Recon"
+    },
+    {
+      "name": "Bug Bounty Tips",
+      "description": "نصائح Bug Bounty",
+      "link": "https://www.infosecmatter.com/bug-bounty-tips/",
+      "category": "Tips"
+    },
+    {
+      "name": "Security Workbook",
+      "description": "دفتر عمل الأمان",
+      "link": "https://workbook.securityboat.net/Bug%20Bounty/#common",
+      "category": "Workbook"
+    },
+    {
+      "name": "Censys Search",
+      "description": "بحث قائم على الشهادات للعثور على عناوين IP",
+      "link": "https://search.censys.io/",
+      "category": "Search Engine"
+    },
+    {
+      "name": "Bug Bounty Hunting Search",
+      "description": "محرك بحث Bug Bounty Hunting",
+      "link": "https://www.bugbountyhunting.com/",
+      "category": "Search Engine"
+    },
+    {
+      "name": "Fawadkhanfk Check-List",
+      "description": "قائمة تحقق شاملة من Fawadkhanfk",
+      "link": "https://github.com/Fawadkhanfk/Check-List-",
+      "category": "Checklist"
+    },
+    {
+      "name": "Haax Cheatsheet",
+      "description": "ورقة غش Bug Bounty شاملة",
+      "link": "https://cheatsheet.haax.fr/resources/web_bug_bounty/",
+      "category": "Cheatsheet"
+    },
+    {
+      "name": "Security Tool Chest",
+      "description": "صندوق أدوات الأمان",
+      "link": "https://medium.com/@jmscory/security-tool-chest-4433950285f",
+      "category": "Tools Collection"
+    },
+    {
+      "name": "Ninad Mathpati Info",
+      "description": "معلومات ومصادر أمنية",
+      "link": "https://info.ninadmathpati.com/",
+      "category": "Resources"
+    },
+    {
+      "name": "0xn3va SSRF Cheat Sheets",
+      "description": "ورقة غش SSRF وأمان تطبيقات الويب",
+      "link": "https://0xn3va.gitbook.io/cheat-sheets/web-application/server-side-request-forgery",
+      "category": "SSRF"
+    },
+    {
+      "name": "Red Team Notes 2.0",
+      "description": "ملاحظات Red Team الشاملة",
+      "link": "https://dmcxblue.gitbook.io/red-team-notes-2-0/",
+      "category": "Red Teaming"
+    },
+    {
+      "name": "M0chan Blog",
+      "description": "مدونة m0chan للأمن السيبراني",
+      "link": "https://blog.m0chan.co.uk/",
+      "category": "Blog"
+    },
+    {
+      "name": "Complete Bug Bounty Cheat Sheet",
+      "description": "ورقة غش Bug Bounty الكاملة",
+      "link": "https://www.scribd.com/document/883288179/Complete-Bug-Bounty-Cheat-Sheet",
+      "category": "Cheatsheet"
+    },
+    {
+      "name": "Bug Bounty Guide and Tools",
+      "description": "دليل Bug Bounty والأدوات",
+      "link": "https://medium.com/@medoo53111/bug-bounty-guide-and-tools-363d40548197",
+      "category": "Guide"
+    },
+    {
+      "name": "InfoSec Writeups BugBounty",
+      "description": "دليل Bug Bounty الشامل مع الموارد",
+      "link": "https://infosecwriteups.com/bugbounty-mastering-the-basics-along-with-resources-part-4-f424a26c6ef6",
+      "category": "Mastery Guide"
+    }
+  ]
+}
