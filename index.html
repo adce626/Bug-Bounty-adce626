@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Bounty adce626 - المصدر الشامل لصيادي الثغرات</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-bug"></i>
+                <span>Bug Bounty adce626</span>
+            </div>
+            <div class="nav-controls">
+                <button class="search-toggle" id="searchToggle" aria-label="بحث">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="القائمة">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="search-bar" id="searchBar">
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input type="text" id="globalSearch" placeholder="ابحث في جميع الأدوات، المقالات، المستودعات...">
+                <button class="search-close" id="searchClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h3>الأقسام</h3>
+            <button class="sidebar-close" id="sidebarClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="#hero"><i class="fas fa-home"></i> الرئيسية</a></li>
+            <li><a href="#tools"><i class="fas fa-tools"></i> الأدوات الأمنية</a></li>
+            <li><a href="#repositories"><i class="fas fa-code-branch"></i> المستودعات</a></li>
+            <li><a href="#articles"><i class="fas fa-newspaper"></i> المقالات</a></li>
+            <li><a href="#extensions"><i class="fas fa-puzzle-piece"></i> إضافات المتصفح</a></li>
+            <li><a href="#dorks"><i class="fas fa-search-location"></i> Google Dorking</a></li>
+            <li><a href="#checklists"><i class="fas fa-clipboard-check"></i> القوائم والمنهجيات</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <p>مجتمع Bug Bounty العربي</p>
+        </div>
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main class="main-content">
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Bug Bounty adce626</span>
+                </h1>
+                <p class="hero-subtitle">المصدر الشامل لصيادي الثغرات الأمنية</p>
+                <p class="hero-description">
+                    اكتشف أكثر من 100+ أداة، مستودع، مقالة، وإضافة متصفح لمساعدتك في رحلة البحث عن الثغرات الأمنية
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-tools"></i>
+                        <h3 id="toolsCount">0</h3>
+                        <p>أداة أمنية</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h3 id="reposCount">0</h3>
+                        <p>مستودع</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-newspaper"></i>
+                        <h3 id="articlesCount">0</h3>
+                        <p>مقالة</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <h3 id="extensionsCount">0</h3>
+                        <p>إضافة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="section">
+            <div class="section-header">
+                <h2><i class="fas fa-tools"></i> الأدوات الأمنية</h2>
+                <p>مجموعة شاملة من أفضل الأدوات لاختبار الاختراق والبحث عن الثغرات</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">الكل</button>
+                    <button class="filter-btn" data-category="فحص الثغرات">فحص الثغرات</button>
+                    <button class="filter-btn" data-category="حقن SQL">حقن SQL</button>
+                    <button class="filter-btn" data-category="XSS">XSS</button>
+                    <button class="filter-btn" data-category="Reconnaissance">Reconnaissance</button>
+                    <button class="filter-btn" data-category="جمع المعلومات">جمع المعلومات</button>
+                </div>
+            </div>
+            <div class="grid" id="toolsGrid"></div>
+        </section>
+
+        <section id="repositories" class="section">
+            <div class="section-header">
+                <h2><i class="fas fa-code-branch"></i> المستودعات والموارد</h2>
+                <p>أفضل مستودعات GitHub للتعلم والمصادر التعليمية</p>
+            </div>
+            <div class="grid" id="repositoriesGrid"></div>
+        </section>
+
+        <section id="articles" class="section">
+            <div class="section-header">
+                <h2><i class="fas fa-newspaper"></i> المقالات والـ Writeups</h2>
+                <p>تقارير وتحليلات تفصيلية من الخبراء في مجال الأمن السيبراني</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">الكل</button>
+                    <button class="filter-btn" data-category="SQL Injection">SQL Injection</button>
+                    <button class="filter-btn" data-category="XSS">XSS</button>
+                    <button class="filter-btn" data-category="CVE">CVE</button>
+                    <button class="filter-btn" data-category="Tools">أدوات</button>
+                </div>
+            </div>
+            <div class="articles-grid" id="articlesGrid"></div>
+        </section>
+
+        <section id="extensions" class="section">
+            <div class="section-header">
+                <h2><i class="fas fa-puzzle-piece"></i> إضافات المتصفح</h2>
+                <p>إضافات ضرورية لكل صياد ثغرات محترف</p>
+            </div>
+            <div class="grid" id="extensionsGrid"></div>
+        </section>
+
+        <section id="dorks" class="section">
+            <div class="section-header">
+                <h2><i class="fas fa-search-location"></i> Google Dorking</h2>
+                <p>استعلامات Google المتقدمة للعثور على نقاط الضعف المحتملة</p>
+                <div class="dork-input-container">
+                    <input type="text" id="domainInput" class="domain-input" placeholder="أدخل النطاق (مثال: example.com)">
+                </div>
+            </div>
+            <div class="grid" id="dorksGrid"></div>
+        </section>
+
+        <section id="checklists" class="section">
+            <div class="section-header">
+                <h2><i class="fas fa-clipboard-check"></i> القوائم والمنهجيات</h2>
+                <p>أدلة شاملة وقوائم تحقق لمساعدتك في عملك</p>
+            </div>
+            <div class="grid" id="checklistsGrid"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-bug"></i> Bug Bounty adce626</h3>
+                <p>مصدرك الشامل لكل ما يتعلق بـ Bug Bounty وأمن المعلومات</p>
+            </div>
+            <div class="footer-section">
+                <h4>روابط مفيدة</h4>
+                <ul>
+                    <li><a href="#tools">الأدوات</a></li>
+                    <li><a href="#articles">المقالات</a></li>
+                    <li><a href="#repositories">المستودعات</a></li>
+                    <li><a href="#extensions">الإضافات</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>الموارد</h4>
+                <ul>
+                    <li><a href="#checklists">المنهجيات</a></li>
+                    <li><a href="#dorks">Google Dorks</a></li>
+                    <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                    <li><a href="https://hackerone.com" target="_blank">HackerOne</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>تواصل معنا</h4>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Bug Bounty adce626. جميع الحقوق محفوظة.</p>
+            <p>تم التصميم بـ <i class="fas fa-heart"></i> لمجتمع Bug Bounty العربي</p>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="notification" id="notification">
+        <i class="fas fa-check-circle"></i>
+        <span id="notificationText"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
